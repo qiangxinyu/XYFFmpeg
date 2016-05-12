@@ -46,7 +46,7 @@
 
 脚本则会自动从github中把ffmpeg源码下到本地并开始编译。 编译结束后，文件目录如下：
 
-![SettingFFmpeg](https://github.com/qiangxinyu/blogImages/blob/master/SettingFFmpeg.png?raw=true)
+![SettingFFmpeg](https://github.com/qiangxinyu/blogImages/blob/master/SettingFFmpeg/SettingFFmpeg_list.png?raw=true)
 
 ffmpeg-3.0是源码， FFmpeg-iOS是编译出来的库，里面是我们需要的.a 静态库，一共有7个。 终端输入
 
