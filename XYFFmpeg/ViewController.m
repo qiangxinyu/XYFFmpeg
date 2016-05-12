@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+#include "avcodec.h"
+
+
 @interface ViewController ()
 
 @end
@@ -16,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+     avcodec_register_all();
 }
 
 - (void)didReceiveMemoryWarning {
